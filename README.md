@@ -26,3 +26,6 @@ Input Attributes:
 Generation Seed|Seed to get different kinds of earthlike planets|Value
 Land - Ocean|Distrubution of land and ocean on your planet|Value
 Clouds|How cloudy your planet will be|Value
+Add Atmosphere|Check if u want an atmosphere around ur planet|Boolean
+Atmosphere Size|Controls the size of the atmosphere|Value
+Holografic|Check if u want to have an holografic-like design|Boolean
