@@ -17,14 +17,14 @@ Height Difference|The higher the value, the higher the mountains|Value
 
 ## Planet Generator
 
-When you want to create a planet similar to earth this geometry node group is for you. (Render Default: Cycles) <br> <br>
+When you want to create different planets and suns this geometry node group is for you. (Render Default: Cycles) <br> <br>
 ![Planet Generator Gif](images/Planet%20Generator.gif)  <br>
 File to download: [Planet Generator Blender File](Geometry%20Nodes/Planet%20Generator.blend) <br>
 Input Attributes:
 |Input Name|Description|Type|
 ---|---|---|
-Type|Choose which kind of planet you want to generate|Menu Selection
-Generation Seed|Seed to get different kinds of earthlike planets|Value
+Type|Choose which kind of solar object you want to generate|Menu Selection
+Generation Seed|Seed to get different kinds of planets/suns|Value
 Add Rotation|Should the planet/sun rotate?|Boolean
 Rotation Speed|Speed the planet/sun shall rotate (when add rotate is checked)|Value
 Land - Ocean(Earth)|Distrubution of land and ocean on your planet|Value
