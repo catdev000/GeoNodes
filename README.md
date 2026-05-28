@@ -18,7 +18,7 @@ Height Difference|The higher the value, the higher the mountains|Value
 ## Planet Generator
 
 When you want to create a planet similar to earth this geometry node group is for you. (Render Default: Cycles) <br> <br>
-![Planet Generator Image](images/Planet%20Generator.png)  <br>
+![Planet Generator Gif](images/Planet%20Generator.gif)  <br>
 File to download: [Planet Generator Blender File](Geometry%20Nodes/Planet%20Generator.blend) <br>
 Input Attributes:
 |Input Name|Description|Type|
