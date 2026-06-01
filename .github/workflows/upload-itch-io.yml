@@ -18,4 +18,4 @@ jobs:
           unzip butler.zip
           chmod +x butler
           ./butler -V
-          ./butler push ./Geometry\ Nodes/ catdev000/geonodes:assets --api-key $BUTLER_API_KEY
+          ./butler push ./Geometry\ Nodes/ catdev000/geonodes:assets
