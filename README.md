@@ -25,6 +25,7 @@ Input Attributes:
 ---|---|---|
 Type|Choose which kind of solar object you want to generate|Menu Selection
 Generation Seed|Seed to get different kinds of planets/suns|Value
+Resolution|Resolution of the planet/sun|Integer
 Add Rotation|Should the planet/sun rotate?|Boolean
 Rotation Speed|Speed the planet/sun shall rotate (when add rotate is checked)|Value
 Land - Ocean(Earth)|Distrubution of land and ocean on your planet|Value
