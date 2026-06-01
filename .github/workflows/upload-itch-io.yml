@@ -2,7 +2,7 @@ name: Upload Blender Assets to itch.io
 
 on:
   push:
-    #branches: [ main ]
+    branches: [ main ]
 
 jobs:
   deploy:
