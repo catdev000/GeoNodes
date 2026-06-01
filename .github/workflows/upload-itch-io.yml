@@ -1,0 +1,20 @@
+name: Upload Blender Assets to itch.io
+
+on:
+  push:
+    #branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Butler
+        uses: manleydev/setup-butler@v1.0.0
+
+      - name: Deploy to itch.io
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+        run: |
+          butler push ./Geometry\ Nodes/ catdev000/geonodes:assets --api-key $BUTLER_API_KEY
