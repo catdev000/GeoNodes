@@ -1,5 +1,19 @@
 # GeoNodes for Blender
 
+## Balloon Generator
+
+Inflate and pop a balloon in your animation(Render Default: Cycles) <br> <br>
+![Balloon Gif](images/balloon%20inflation%20and%20pop.gif) <br>
+File to download: [Balloon Generator Blender File](Geometry%20Nodes/Balloon%20Maker.blend) <br>
+Input Attributes:
+|Input Name|Description|Type|
+---|---|---|
+Color|The color of the balloon|Color
+Burst Point|The Point in your animation where the balloon pops|Boolean
+Inflation Starting|Point in your animation where the balloon starts inflating|Boolean
+Inflation Speed|How fast the balloon inflates when Inflation Starting is triggered|Value
+
+
 ## Height Map Visualization
 
 Helps you visualize a height map 3-dimensional and colorize it. (Render Default: EEVEE) <br> <br>
