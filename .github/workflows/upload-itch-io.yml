@@ -19,4 +19,4 @@ jobs:
           chmod +x butler
           ./butler -V
           ./butler push ./Geometry\ Nodes/ catdev000/geonodes:assets
-          ./butler push ./Shader\ Nodes/" catdev000/geonodes:assets
+          ./butler push ./Shader\ Nodes/ catdev000/geonodes:assets
