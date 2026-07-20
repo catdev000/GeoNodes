@@ -18,5 +18,9 @@ jobs:
           unzip butler.zip
           chmod +x butler
           ./butler -V
-          ./butler push ./Geometry\ Nodes/ catdev000/geonodes:assets
-          ./butler push ./Shader\ Nodes/ catdev000/geonodes:assets
+          
+          mkdir -p assets
+          cp -r ./Geometry\ Nodes/ assets/
+          cp -r ./Shader\ Nodes/ assets/
+
+          ./butler push assets/ catdev000/geonodes:assets
