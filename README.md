@@ -3,7 +3,7 @@
 ## Balloon Generator
 
 Inflate and pop a balloon in your animation(Render Default: Cycles) <br> <br>
-![Balloon Gif](images/balloon%20inflation%20and%20pop.gif) <br>
+<img src="images/balloon%20inflation%20and%20pop.gif" width="200" alt="Balloon Gif"> <br>
 File to download: [Balloon Generator Blender File](Geometry%20Nodes/Balloon%20Maker.blend) <br>
 Input Attributes:
 |Input Name|Description|Type|
@@ -12,6 +12,20 @@ Color|The color of the balloon|Color
 Burst Point|The Point in your animation where the balloon pops|Boolean
 Inflation Starting|Point in your animation where the balloon starts inflating|Boolean
 Inflation Speed|How fast the balloon inflates when Inflation Starting is triggered|Value
+
+## Cube with Face Expressions
+
+A Shader (not a geometry node) to have a cube with different colors and facial expressions (Render Default: Cycles) <br>
+Color and facial expressions are controlled by custom properties. (under object the last tab)
+<br> <br>
+![Cube with facial expressions](images/cube%20with%20expressions.gif) <br>
+File to download: [Cube with Expressions Blender File](Shader%20Nodes/Cube%20with%20Face%20Expressions.blend) <br>
+Input Attributes:
+|Input Name|Description|Type|
+---|---|---|
+Color|The color of the Cube|Value
+Color Brightness|The Brightness of the color of the cube|Value
+Face Expression|The current face expression as number|Integer
 
 
 ## Height Map Visualization
