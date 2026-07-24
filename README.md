@@ -30,7 +30,7 @@ Face Expression|The current face expression as number|Integer
 
 ## Height Map Visualization
 
-Helps you visualize a height map 3-dimensional and colorize it. (Render Default: EEVEE) <br> <br>
+Helps you visualize a height map 3-dimensional and colorize it. (Render Default: Cycles) <br> <br>
 ![Height Map Image](images/Height%20Map%20Visualization.png) <br>
 File to download: [Height Map Blender File](Geometry%20Nodes/Height%20Map%20Visualization.blend) <br>
 Input Attributes:
@@ -42,6 +42,8 @@ Color High Zone|Color of the 'high' zone (top of mountains)|Color
 Color Ground Zone|Color of the 'ground' zone (bottom of the mountains)|Color
 Color Ground-High Transition|Color of the zone between ground and high zone|Color
 Height Difference|The higher the value, the higher the mountains|Value
+Add Fog| Adds Fog to your height map|Boolean
+Fog Size|Sets the size of the fog bubble|Value
 
 ## Planet Generator
 
