@@ -64,3 +64,17 @@ Add Atmosphere|Check if u want an atmosphere around ur planet|Boolean
 Atmosphere Size|Controls the size of the atmosphere|Value
 Holografic|Check if u want to have an holografic-like design|Boolean
 Color(Sun)|Which color the sun shall have|Color
+
+# Rainbowify
+
+Colorize/Rainbowify any object you want. (Render Default: Cycles) <br> <br>
+![Rainbowify Gif](images/rainbowify.gif) <br>
+File to download: [Rainbowify Blender File](Geometry%20Nodes/Rainbowify.blend) <br>
+Input Attributes:
+|Input Name|Description|Type|
+---|---|---|
+Color Speed|Speed how fast the color changes|Value
+Color Variation|Variation of Colors (similar to a seed in video games)|Integer
+Add Fog|Add a fog around the cube (in cycles in creates a beautiful light effect)|Boolean
+Fog Density|How dense the fog will be around the object|Value
+Brightness|How much the object shines|Value
