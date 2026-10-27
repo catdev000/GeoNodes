@@ -27,6 +27,16 @@ Color|The color of the Cube|Value
 Color Brightness|The Brightness of the color of the cube|Value
 Face Expression|The current face expression as number|Integer
 
+## Fireworks
+
+Create fireworks for your silvester/party animation (Render Default: Cycles) <br> <br>
+<img src="images/fireworks.gif" width="400" alt="Fireworks Gif"> <br>
+File to download: [Fireworks Blender File](Geometry%20Nodes/Fireworks.blend) <br>
+Input Attributes:
+|Input Name|Description|Type|
+---|---|---|
+Speed Rocket|The Speed of the rocket|Value
+Color Rocket|The color of the rocket|Color
 
 ## Height Map Visualization
 
